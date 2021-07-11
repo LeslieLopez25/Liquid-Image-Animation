@@ -1,0 +1,33 @@
+* {
+  border-radius: 50%;
+}
+
+body {
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+}
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.distortion {
+  width: 500px;
+  height: 500px;
+  align-self: flex-end;
+}
+
+.intro {
+  align-self: center;
+}
+
+.intro h2 {
+  font-size: 50px;
+  color: #00303f;
+}
+
+.intro p {
+  font-size: 25px;
+  color: #7d5e2a;
+}
