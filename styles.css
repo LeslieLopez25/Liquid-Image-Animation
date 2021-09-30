@@ -1,21 +1,28 @@
+:root {
+  --first-color: hsl(28.2, 86.6%, 62%);
+  --second-color: hsl(45.2, 86.5%, 62.4%);
+  --third-color: hsl(345.2, 100%, 50%);
+  --fourth-color: hsl(0, 50%, 15.7%);
+}
+
 * {
   border-radius: 50%;
 }
 
 body {
-  background: linear-gradient(to right, #a8ff78, #78ffd6);
+  background: linear-gradient(to right, var(--first-color), var(--second-color));
 }
 
 .landing {
   display: flex;
   justify-content: space-around;
-  height: 90vh;
+  height: 35rem;
 }
 
 .distortion {
-  width: 500px;
-  height: 500px;
   align-self: flex-end;
+  width: 31.25rem;
+  height: 31.25rem;
 }
 
 .intro {
@@ -23,11 +30,12 @@ body {
 }
 
 .intro h2 {
-  font-size: 50px;
-  color: #00303f;
+  color: var(--third-color);
+  font-size: 3.12rem;
+  text-transform: uppercase;
 }
 
 .intro p {
-  font-size: 25px;
-  color: #7d5e2a;
+  color: var(--fourth-color);
+  font-size: 1.56rem;
 }
